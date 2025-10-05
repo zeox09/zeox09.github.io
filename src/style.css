@@ -1,0 +1,24 @@
+body{
+    background: #020024;
+    background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(80, 13, 107, 1) 53%, rgba(105, 36, 166, 1) 100%);
+}
+.iceberg-regular {
+  font-family: "Iceberg", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+.menu{
+    width: 100%;
+    height: 4rem;
+    margin: 0;
+    padding: 0;
+    text-align: right;
+    align-items: center;
+}
+.navLink{
+    margin: auto;
+    padding: auto;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+}
