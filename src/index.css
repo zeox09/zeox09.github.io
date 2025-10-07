@@ -1,11 +1,50 @@
-@import "tailwindcss";
 @import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
 @import 'bootstrap-icons/font/bootstrap-icons.css';
 body{
   font-family: "Roboto",sans-serif;
-  background-color: black;
+  background-color: #D4D5D6;
 }
 #Navlink:hover{
   color: #9D1EFA;
   transition: 2s;
+}
+#About{
+  /*background-image: url("/src/assets/images/img-fondo.png");*/
+  background-repeat: no-repeat;
+  background-size:contain;
+}
+.writing-mode{
+   text-orientation: upright;
+   writing-mode: vertical-rl;
+}
+@keyframes typing {
+  0%{
+    width: 0ch;
+  }
+  100%{
+    width: 12ch;
+  }
+}
+@keyframes blink {
+  50%{
+    border-color: transparent;
+  }
+}
+@keyframes colores {
+  0%{
+    color :#9D1EFA;
+  }
+  50%{
+    color: blue;
+  }
+  70%{
+    color: aqua;
+  }
+  100%{
+    color: aliceblue;
+  }
+}
+.typewriter{
+  animation: typing 3s steps(18) 1s 1 normal both, blink .8s step-end infinite;
 }
